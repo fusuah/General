@@ -1,0 +1,26 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4444"/>
+      <stop offset="100%" stop-color="#143030"/>
+    </linearGradient>
+  </defs>
+
+  <!-- organic blob frame, echoing the site's hero photo shape -->
+  <path d="M100 10
+           C 145 10, 182 35, 188 78
+           C 194 118, 178 156, 140 178
+           C 102 200, 54 196, 26 164
+           C -2 132, 2 80, 28 48
+           C 50 20, 72 10, 100 10 Z"
+        fill="url(#bgGrad)"/>
+
+  <!-- monogram -->
+  <text x="100" y="125" text-anchor="middle"
+        font-family="Fraunces, Georgia, 'Times New Roman', serif"
+        font-size="92" font-weight="600" fill="#F2E8D8" letter-spacing="-2">JM</text>
+
+  <!-- signature spark accent, matching site's coral ticker mark -->
+  <path d="M154 52 L158 62 L168 66 L158 70 L154 80 L150 70 L140 66 L150 62 Z"
+        fill="#E0805F"/>
+</svg>
